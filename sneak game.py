@@ -7,10 +7,10 @@ pygame.init()
 
 
 pygame.mixer.music.set_volume(0.1)
-musica_de_fundo = pygame.mixer.music.load('music.wav')
+musica_de_fundo = pygame.mixer.music.load('Sneak-game\music.wav')
 pygame.mixer.music.play(-1)
 
-barulho_colisao = pygame.mixer.Sound('jump.wav')
+barulho_colisao = pygame.mixer.Sound('Sneak-game\jump.wav')
 
 largura = 640
 altura = 480
